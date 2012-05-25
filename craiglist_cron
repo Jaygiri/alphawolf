@@ -1,0 +1,32 @@
+#
+30         * * * * cat /dev/null > /var/spool/mail/root
+
+###########################################################################################################################
+#CST.PHPWOLF.COM - Self
+0,15,30,45     *       *       *       *       wget --no-cache -q "http://cst.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=Classified&getall=1&tid=94211&target=2" -O-
+
+
+###########################################################################################################################
+#PST.PHPWOLF.COM - 
+0,15,30,45     *       *       *       *       wget --no-cache -q "http://pst.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=Classified&getall=1&tid=95211&target=2&flipflop=1" -O-
+
+
+
+############################################################################################################################
+#RACK-SPACE RACK1 - 50.56.88.42
+0,15,30,45     *       *       *       *       wget --no-cache -q "http://50.56.88.42/wolfbotx/www/crons/scrap.php?entity=Classified&getall=1&tid=96211&target=2&flipflop=1" -O-
+
+
+############################################################################################################################
+#HYDRA VPS - Rudra - 64.72.124.25
+40,55,10,25      *       *       *       *       wget --no-cache -q "http://64.72.124.25/wolfbotx/www/crons/scrap.php?entity=Classified&getall=1&tid=97211&target=2&flipflop=1" -O-
+
+############################################################################################################################
+#VPSCHEAP.INFO - Bholu - 209.188.4.12
+40,55,10,25      *       *       *       *       wget --no-cache -q "http://209.188.4.12/wolfbotx/www/crons/scrap.php?entity=Classified&getall=1&tid=98211&target=2&flipflop=1" -O-
+
+############################################################################################################################
+#X.PHPWOLF.COM
+0,15,30,45     *       *       *       *       wget --no-cache -q "http://x.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=Classified&getall=1&tid=99211&target=2&flipflop=1" -O-
+
+

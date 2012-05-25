@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ssh -i /root/alphawolf/keys/rsync_rsa root@$1 "tail -f /var/log/apache2/error.log"

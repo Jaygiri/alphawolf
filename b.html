@@ -1,0 +1,208 @@
+******** DEV/QA ENV *************
+
+Thread: 95101 Entiry: DirectoryList Target: 1
+[798871] http://www.yellowpages.com/san-francisco-ca/finance?g=San+Francisco%2C+CA&page=45&q=Finance 9956f1b26c82a815b7eed5ce714f1e24
+No pre scraping process defined on this partner.
+Empty node for NextPage
+Parsed Data: Array
+(
+    [NextPage] => 
+)
+
+Array
+(
+    [__init__] => DirectoryList_Parser
+    [__run__] => DirectoryList_Parser
+    [Parsing Rules] => FOUND
+    [time_before_fetch] => 0.249379873276
+    [fetch_time] => 1.15171194077
+    [parsing_time] => 0.130648136139
+    [release_time] => 0.110975027084
+)
+
+Time Taken by URL: 1.65718793869
+Thread: 95101 Entiry: DirectoryList Target: 1
+Thread: 95101 Entiry: DirectoryList Target: 1
+
+
+*** No More URLs Found ***
+Total Pages Scraped: 1
+<h4>DB Queries</h4><pre>Total Time by SQL queries: 0.933935880661
+Array
+(
+    [0] => Array
+        (
+            [query] => SELECT * FROM `robot_urls` WHERE `status`='1' AND `thread_id`='95101' AND `entity`='DirectoryList' AND `targets_id`='1'   LIMIT 10
+            [time] => 0.0560998916626
+            [error] => 
+            [errno] => 0
+        )
+
+    [1] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `thread_id`='95101', `last`=FROM_UNIXTIME('1317016560') WHERE 1=1  AND `targets_id`='1'  AND `status`='1' AND `entity`='DirectoryList' AND (`thread_id` IS NULL OR `thread_id`='') AND ((UNIX_TIMESTAMP(`last`) + `freq`) < '1317016560') ORDER BY type DESC, last ASC LIMIT 10
+            [time] => 0.0722460746765
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [2] => Array
+        (
+            [query] => SELECT * FROM `robot_urls` WHERE `status`='1' AND `thread_id`='95101' AND `entity`='DirectoryList' AND `targets_id`='1'   LIMIT 10
+            [time] => 0.055557012558
+            [error] => 
+            [errno] => 0
+        )
+
+    [3] => Array
+        (
+            [query] => SELECT * FROM `robot_targets` WHERE `id`='1'
+            [time] => 0.0615470409393
+            [error] => 
+            [errno] => 0
+        )
+
+    [4] => Array
+        (
+            [query] => SELECT * FROM `robot_parsingrules` WHERE entity='DirectoryList' AND targets_id='1' AND status=1 ORDER BY `order` ASC 
+            [time] => 0.0559949874878
+            [error] => 
+            [errno] => 0
+        )
+
+    [5] => Array
+        (
+            [query] => UPDATE `robot_urls` SET crondata='{\"urlparams\":{\"page\":46},\"donePage\":1}' WHERE `id`='798871'
+            [time] => 0.0550949573517
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [6] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `thread_id`=NULL WHERE `id`='798871'
+            [time] => 0.0555090904236
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [7] => Array
+        (
+            [query] => SELECT * FROM `robot_urls` WHERE `status`='1' AND `thread_id`='95101' AND `entity`='DirectoryList' AND `targets_id`='1'   LIMIT 10
+            [time] => 0.0554759502411
+            [error] => 
+            [errno] => 0
+        )
+
+    [8] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `thread_id`='95101', `last`=FROM_UNIXTIME('1317016561') WHERE 1=1  AND `targets_id`='1'  AND `status`='1' AND `entity`='DirectoryList' AND (`thread_id` IS NULL OR `thread_id`='') AND ((UNIX_TIMESTAMP(`last`) + `freq`) < '1317016561') ORDER BY type DESC, last ASC LIMIT 10
+            [time] => 0.0668890476227
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [9] => Array
+        (
+            [query] => SELECT * FROM `robot_urls` WHERE `status`='1' AND `thread_id`='95101' AND `entity`='DirectoryList' AND `targets_id`='1'   LIMIT 10
+            [time] => 0.0554919242859
+            [error] => 
+            [errno] => 0
+        )
+
+    [10] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `status`='5' WHERE id='798871' LIMIT 1
+            [time] => 0.0555169582367
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [11] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `thread_id`=NULL WHERE `id`='798871'
+            [time] => 0.0555119514465
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [12] => Array
+        (
+            [query] => SELECT * FROM `robot_urls` WHERE `status`='1' AND `thread_id`='95101' AND `entity`='DirectoryList' AND `targets_id`='1'   LIMIT 10
+            [time] => 0.0557270050049
+            [error] => 
+            [errno] => 0
+        )
+
+    [13] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `thread_id`='95101', `last`=FROM_UNIXTIME('1317016562') WHERE 1=1  AND `targets_id`='1'  AND `status`='1' AND `entity`='DirectoryList' AND (`thread_id` IS NULL OR `thread_id`='') AND ((UNIX_TIMESTAMP(`last`) + `freq`) < '1317016562') ORDER BY type DESC, last ASC LIMIT 10
+            [time] => 0.0666780471802
+            [error] => 
+            [errno] => 0
+            [affected] => 0
+        )
+
+    [14] => Array
+        (
+            [query] => SELECT * FROM `robot_urls` WHERE `status`='1' AND `thread_id`='95101' AND `entity`='DirectoryList' AND `targets_id`='1'   LIMIT 10
+            [time] => 0.055428981781
+            [error] => 
+            [errno] => 0
+        )
+
+    [15] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `thread_id`=NULL WHERE `id`=''
+            [time] => 0.0551669597626
+            [error] => 
+            [errno] => 0
+            [affected] => 0
+        )
+
+)
+</pre><style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        padding: 10px;
+    }
+    h4, h3 {
+        color: silver;
+        font-family: Calibri;
+        padding: 20px 0px 5px 0px;
+    }
+    h5 {
+        padding-top: 10px;
+    }
+    pre {
+        border: 1px dotted silver;
+    }
+    pre.showregex {
+        background-color: silver;
+    }
+    
+    #requiredKeys, #optionalKeys, #groupKeys {
+        float: left;
+    }
+    #requiredKeys, #optionalKeys, #groupKeys {
+        padding: 20px;
+        padding-left: 40px;
+        font-family: Calibri;
+        color: #99cc55;
+    }
+    ul strong {
+        color: #77aa33;
+    }
+    .parsingerror {
+        background-color: yellow;
+    }
+</style>

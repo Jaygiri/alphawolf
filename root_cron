@@ -1,0 +1,44 @@
+#
+30         * * * * cat /dev/null > /var/spool/mail/root
+
+###########################################################################################################################
+#CST.PHPWOLF.COM - Self
+#5,20,35,50     *       *       *       *       wget --no-cache -q "http://cst.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=301&target=1" -O-
+5,20,35,50     *       *       *       *       wget --no-cache -q "http://cst.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=95111&target=1" -O-
+0,15,30,45     *       *       *       *       wget --no-cache -q "http://cst.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=Classified&getall=1&tid=401&target=2" -O-
+
+
+###########################################################################################################################
+#PST.PHPWOLF.COM 
+#40,55,10,25 * * * * wget --no-cache -q "http://pst.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=96101&target=1&flipflop=1" -O-
+40,55,10,25 * * * * wget --no-cache -q "http://pst.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=96311&target=3&flipflop=1" -O-
+40,55,10,25 * * * * wget --no-cache -q "http://pst.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=96111&target=1&flipflop=1" -O-
+
+
+
+############################################################################################################################
+#RACK-SPACE RACK1
+#5,20,35,50     *       *       *       *       wget --no-cache -q "http://50.56.88.42/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=99101&target=3&flipflop=1" -O-
+#5,20,35,50 * * * * wget --no-cache -q "http://50.56.88.42/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=99101&target=1&flipflop=1" -O-
+ 5,20,35,50 * * * * wget --no-cache -q "http://50.56.88.42/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=99111&target=1&flipflop=1" -O-
+ 5,20,35,50 * * * * wget --no-cache -q "http://50.56.88.42/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=99311&target=3&flipflop=1" -O-
+
+
+############################################################################################################################
+#HYDRA VPS - Rudra
+#5,20,35,50 * * * * wget --no-cache -q "http://64.72.124.25/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=98101&target=1&flipflop=1" -O-
+ 5,20,35,50 * * * * wget --no-cache -q "http://64.72.124.25/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=98111&target=1&flipflop=1" -O-
+ 5,20,35,50 * * * * wget --no-cache -q "http://64.72.124.25/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=98311&target=3&flipflop=1" -O-
+
+############################################################################################################################
+#VPSCHEAP.INFO - Bholu
+#40,55,10,25      *       *       *       *       wget --no-cache -q "http://209.188.4.12/wolfbotx/www/crons/scrap.php?entity=Classified&getall=1&tid=97211&target=2&flipflop=1" -O-
+#25,40,55,10      *       *       *       *       wget --no-cache -q "http://209.188.4.12/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=97101&target=1&flipflop=1" -O-
+25,40,55,10      *       *       *       *       wget --no-cache -q "http://209.188.4.12/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=97111&target=1&flipflop=1" -O-
+25,40,55,10      *       *       *       *       wget --no-cache -q "http://209.188.4.12/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=97211&target=3&flipflop=1" -O-
+
+############################################################################################################################
+#X.PHPWOLF.COM
+5,35,20,50 * * * * wget --no-cache -q "http://x.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=95101&target=1&flipflop=1" -O-
+
+

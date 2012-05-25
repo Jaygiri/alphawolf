@@ -1,0 +1,799 @@
+******** DEV/QA ENV *************
+
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[573224] http://www.yellowpages.com/southwick-ma/mip/fsc-insurance-agency-6834257?lid=189041557 28dc40f7c565a20921c2d0eefc35a4a4
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => FSC Insurance Agency
+    [website] => http://www.fscinsuranceagency.com
+    [srcurl] => http://www.yellowpages.com/southwick-ma/mip/fsc-insurance-agency-6834257?lid=189041557
+    [crc32] => 598101279
+    [md5] => 28dc40f7c565a20921c2d0eefc35a4a4
+    [address] => 603 College Hwy
+    [city] => Southwick
+    [state] => MA
+    [zip] => 01077
+    [country] => 
+    [phone] => (413) 998-0701
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Financial Services, Renters Insurance, Property & Casualty Insurance, Auto Insurance, Motorcycle Insurance, Insurance, Workers Compensation & Disability Insurance, Truck Insurance, Homeowners Insurance, Group Insurance, Boat & Marine Insurance, Business & Commercial Insurance, Notaries Public
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 68.6678309441
+    [fetch_time] => 0.820157051086
+    [parsing_time] => 0.403684854507
+    [release_time] => 0.0558531284332
+)
+
+Time Taken by URL: 69.9484510422
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[638760] http://www.yellowpages.com/south-portland-me/mip/sedgwick-claims-management-svc-12289560?lid=12289560 9575c0ed414ccd30877f16850578057f
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => Sedgwick Claims Management Svc
+    [website] => http://sedgwickcms.com
+    [srcurl] => http://www.yellowpages.com/south-portland-me/mip/sedgwick-claims-management-svc-12289560?lid=12289560
+    [crc32] => 1794177313
+    [md5] => 9575c0ed414ccd30877f16850578057f
+    [address] => 179 John Roberts Rd
+    [city] => South Portland
+    [state] => ME
+    [zip] => 04106
+    [country] => 
+    [phone] => (207) 874-9100
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Insurance, Business & Commercial Insurance
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.055584192276
+    [fetch_time] => 0.78414106369
+    [parsing_time] => 0.261728048325
+    [release_time] => 0.0554578304291
+)
+
+Time Taken by URL: 1.1636800766
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[441896] http://www.yellowpages.com/novato-ca/mip/sausalito-audio-17074440?lid=17074440 6a1b43497363ab463ffbda1274bd2616
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => Sausalito Audio
+    [website] => http://sausalitoaudio.com
+    [srcurl] => http://www.yellowpages.com/novato-ca/mip/sausalito-audio-17074440?lid=17074440
+    [crc32] => 2836174663
+    [md5] => 6a1b43497363ab463ffbda1274bd2616
+    [address] => 61 Galli Dr # C
+    [city] => Novato
+    [state] => CA
+    [zip] => 94949
+    [country] => 
+    [phone] => (415) 883-8040
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Audio-Visual Production Services, Business Coaches & Consultants, Audio-Visual Creative Services
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0557978153229
+    [fetch_time] => 0.787664890289
+    [parsing_time] => 0.391036987305
+    [release_time] => 0.0553879737854
+)
+
+Time Taken by URL: 1.29637885094
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[704040] http://www.yellowpages.com/nationwide/mip/cavalier-business-communications-17257328?lid=17257328 a027a4bb2ac555833af4f4977c30c30f
+No pre scraping process defined on this partner.
+Empty node for address
+Empty node for city
+Empty node for state
+Empty node for zip
+Final Output: Array
+(
+    [id] => 0
+    [name] => Cavalier Business Communications
+    [website] => http://cavtel.com
+    [srcurl] => http://www.yellowpages.com/nationwide/mip/cavalier-business-communications-17257328?lid=17257328
+    [crc32] => 137944358
+    [md5] => a027a4bb2ac555833af4f4977c30c30f
+    [address] => 
+    [city] => 
+    [state] => 
+    [zip] => 
+    [country] => 
+    [phone] => (318) 868-6984
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Telephone Communications Services, Telephone Companies
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0554370880127
+    [fetch_time] => 0.715934991837
+    [parsing_time] => 0.292870998383
+    [release_time] => 0.0561521053314
+)
+
+Time Taken by URL: 1.12718605995
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[441128] http://www.yellowpages.com/las-vegas-nv/mip/grant-contracting-inc-453742570?lid=453742570 726bc3ba78590b93fcdf6ec99cbd5cb4
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => Grant Contracting, Inc.
+    [website] => http://www.grant1co.com
+    [srcurl] => http://www.yellowpages.com/las-vegas-nv/mip/grant-contracting-inc-453742570?lid=453742570
+    [crc32] => 3704206310
+    [md5] => 726bc3ba78590b93fcdf6ec99cbd5cb4
+    [address] => 5637 Cameron St
+    [city] => Las Vegas
+    [state] => NV
+    [zip] => 89118
+    [country] => 
+    [phone] => (702) 818-1515
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Business Coaches & Consultants
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0555300712585
+    [fetch_time] => 0.785827875137
+    [parsing_time] => 0.284518003464
+    [release_time] => 0.0579779148102
+)
+
+Time Taken by URL: 1.19083619118
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[506152] http://www.yellowpages.com/beachwood-oh/mip/larry-hoicowitz-cpa-pfs-461565529?lid=461565529 40f1e1ead967111e95a56a871fcb2f50
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => Larry Hoicowitz CPA/PFS
+    [website] => http://taxesonlycpa.com
+    [srcurl] => http://www.yellowpages.com/beachwood-oh/mip/larry-hoicowitz-cpa-pfs-461565529?lid=461565529
+    [crc32] => 4023811213
+    [md5] => 40f1e1ead967111e95a56a871fcb2f50
+    [address] => 2000 Auburn Dr Suite 200
+    [city] => Beachwood
+    [state] => OH
+    [zip] => 44122
+    [country] => 
+    [phone] => (216) 378-7520
+    [phones_other] => 
+    [email] => lhoicowitz@ohiocpa.net
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Accountants-Certified Public, Insurance, Tax Return Preparation-Business, Financial Services, Tax Return Preparation
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0552999973297
+    [fetch_time] => 0.765899181366
+    [parsing_time] => 0.273923873901
+    [release_time] => 0.055328130722
+)
+
+Time Taken by URL: 1.15713000298
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[702504] http://www.yellowpages.com/baton-rouge-la/mip/baton-rouge-symphony-12758130?lid=12758130 7d7fac9a6cad34c3de12becc98fccf70
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => Baton Rouge Symphony
+    [website] => http://brso.org
+    [srcurl] => http://www.yellowpages.com/baton-rouge-la/mip/baton-rouge-symphony-12758130?lid=12758130
+    [crc32] => 944195198
+    [md5] => 7d7fac9a6cad34c3de12becc98fccf70
+    [address] => 7330 Highland Rd
+    [city] => Baton Rouge
+    [state] => LA
+    [zip] => 70808
+    [country] => 
+    [phone] => (225) 383-0500
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Musicians, Bands & Orchestras, Entertainers-Family & Business
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0556919574738
+    [fetch_time] => 0.721755981445
+    [parsing_time] => 0.31418299675
+    [release_time] => 0.0606570243835
+)
+
+Time Taken by URL: 1.16249990463
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[639272] http://www.yellowpages.com/rochester-mn/mip/the-ups-store-14767651?lid=14767651 050d89b761ea8bca82b052ce1e52547d
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => The UPS Store
+    [website] => http://www.upsstore.com
+    [srcurl] => http://www.yellowpages.com/rochester-mn/mip/the-ups-store-14767651?lid=14767651
+    [crc32] => 2561567108
+    [md5] => 050d89b761ea8bca82b052ce1e52547d
+    [address] => 110 W Center St
+    [city] => Rochester
+    [state] => MN
+    [zip] => 55902
+    [country] => 
+    [phone] => (507) 424-1212
+    [phones_other] => 
+    [email] => store5947@theupsstore.com
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Copying & Duplicating Service, Packing & Crating Service, Mail & Shipping Services, Notaries Public
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 209.587255955
+    [fetch_time] => 0.822757005692
+    [parsing_time] => 0.420695066452
+    [release_time] => 0.0558819770813
+)
+
+Time Taken by URL: 210.902904987
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[377640] http://www.yellowpages.com/palm-desert-ca/mip/jones-bradley-r-cpa-17188221?lid=17188221 c3b69b71924e0f565d90e66ed2bf3bce
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => Jones Bradley R CPA
+    [website] => http://bjonescpa.com
+    [srcurl] => http://www.yellowpages.com/palm-desert-ca/mip/jones-bradley-r-cpa-17188221?lid=17188221
+    [crc32] => 3811094780
+    [md5] => c3b69b71924e0f565d90e66ed2bf3bce
+    [address] => 73925 Highway 111 # K
+    [city] => Palm Desert
+    [state] => CA
+    [zip] => 92260
+    [country] => 
+    [phone] => (760) 568-1211
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Accountants-Certified Public, Tax Return Preparation-Business, Accounting Services, Tax Return Preparation
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0556888580322
+    [fetch_time] => 0.782325983047
+    [parsing_time] => 0.319829940796
+    [release_time] => 0.0557060241699
+)
+
+Time Taken by URL: 1.22684788704
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[377128] http://www.yellowpages.com/palatine-il/mip/mirage-consulting-28521488?lid=28521488 8999d9950a8ec67e92b879760019b595
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => Mirage Consulting
+    [website] => 
+    [srcurl] => http://www.yellowpages.com/palatine-il/mip/mirage-consulting-28521488?lid=28521488
+    [crc32] => 2795236520
+    [md5] => 8999d9950a8ec67e92b879760019b595
+    [address] => 545 N Clark Dr
+    [city] => Palatine
+    [state] => IL
+    [zip] => 60074
+    [country] => 
+    [phone] => (847) 991-8179
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Business Coaches & Consultants
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0562570095062
+    [fetch_time] => 0.720680952072
+    [parsing_time] => 0.352353811264
+    [release_time] => 0.0556080341339
+)
+
+Time Taken by URL: 1.19425797462
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[705064] http://www.yellowpages.com/omaha-ne/mip/art-jetter-company-7997604?lid=7997604 a9f2f2d30a11f2385eefc3c07f9cfe64
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => Art Jetter & Co
+    [website] => http://jetter.com
+    [srcurl] => http://www.yellowpages.com/omaha-ne/mip/art-jetter-company-7997604?lid=7997604
+    [crc32] => 1832894254
+    [md5] => a9f2f2d30a11f2385eefc3c07f9cfe64
+    [address] => 11305 Chicago Cir
+    [city] => Omaha
+    [state] => NE
+    [zip] => 68154
+    [country] => 
+    [phone] => (402) 330-2900
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Insurance, Business & Commercial Insurance
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0567581653595
+    [fetch_time] => 0.794082164764
+    [parsing_time] => 0.324076890945
+    [release_time] => 0.0551741123199
+)
+
+Time Taken by URL: 1.24115109444
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[443176] http://www.yellowpages.com/ocala-fl/mip/management-alternative-ltd-19702965?lid=19702965 acbb2848493138a0af1ea2c05bcec969
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => Management Alternative Ltd
+    [website] => 
+    [srcurl] => http://www.yellowpages.com/ocala-fl/mip/management-alternative-ltd-19702965?lid=19702965
+    [crc32] => 2785199760
+    [md5] => acbb2848493138a0af1ea2c05bcec969
+    [address] => 3320 SW 33rd Rd # 100
+    [city] => Ocala
+    [state] => FL
+    [zip] => 34474
+    [country] => 
+    [phone] => (352) 873-8722
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Business Management
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0560231208801
+    [fetch_time] => 0.698896884918
+    [parsing_time] => 0.320871829987
+    [release_time] => 0.0558822154999
+)
+
+Time Taken by URL: 1.1424331665
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[705832] http://www.yellowpages.com/magnolia-tx/mip/phillip-emanuel-insurance-462035759?lid=462035759 18ceeb180aac4b376fa6c81501cc4cbc
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => Phillip Emanuel Insurance
+    [website] => http://allstate.com
+    [srcurl] => http://www.yellowpages.com/magnolia-tx/mip/phillip-emanuel-insurance-462035759?lid=462035759
+    [crc32] => 2112498341
+    [md5] => 18ceeb180aac4b376fa6c81501cc4cbc
+    [address] => 29135 Fm 2978 Rd
+    [city] => Magnolia
+    [state] => TX
+    [zip] => 77354
+    [country] => 
+    [phone] => (281) 252-0601
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Insurance, Business & Commercial Insurance
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0555701255798
+    [fetch_time] => 0.698077917099
+    [parsing_time] => 0.263771057129
+    [release_time] => 0.0555319786072
+)
+
+Time Taken by URL: 1.07983899117
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[508456] http://www.yellowpages.com/luling-la/mip/h-r-block-22805247?lid=168383993 81b553a55a90305649464837da83e207
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => H&R Block
+    [website] => http://www.hrblock.com
+    [srcurl] => http://www.yellowpages.com/luling-la/mip/h-r-block-22805247?lid=168383993
+    [crc32] => 20300012
+    [md5] => 81b553a55a90305649464837da83e207
+    [address] => 12715 Highway 90
+    [city] => Luling
+    [state] => LA
+    [zip] => 70070
+    [country] => 
+    [phone] => (985) 785-1040
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Tax Return Preparation, Tax Reporting Service, Tax Return Preparation-Business, Taxes-Consultants & Representatives
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0556209087372
+    [fetch_time] => 0.695328950882
+    [parsing_time] => 0.283303022385
+    [release_time] => 0.0553929805756
+)
+
+Time Taken by URL: 1.09672188759
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[704296] http://www.yellowpages.com/columbia-pa/mip/columbia-discount-computers-22928447?lid=22928447 74ab1c317036a190255e5a7a7e031c7e
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => Columbia Discount Computers
+    [website] => http://www.columbiadiscountcomputers.com
+    [srcurl] => http://www.yellowpages.com/columbia-pa/mip/columbia-discount-computers-22928447?lid=22928447
+    [crc32] => 4036539676
+    [md5] => 74ab1c317036a190255e5a7a7e031c7e
+    [address] => 23 N. Fourth St
+    [city] => Columbia
+    [state] => PA
+    [zip] => 17512
+    [country] => 
+    [phone] => (717) 342-2379
+    [phones_other] => 
+    [email] => columbiadiscountcomputers@yahoo.com
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Computers & Computer Equipment-Service & Repair, Computer Data Recovery, Computer Service & Repair-Business, Used Computers, Computer Network Design & Systems
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0556199550629
+    [fetch_time] => 0.77173614502
+    [parsing_time] => 0.305821895599
+    [release_time] => 0.0611681938171
+)
+
+Time Taken by URL: 1.21087598801
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[704552] http://www.yellowpages.com/cleveland-oh/mip/united-states-government-small-business-administration-9730255?lid=9730255 35083f424b466080edd2a138e512fb37
+No pre scraping process defined on this partner.
+Final Output: Array
+(
+    [id] => 0
+    [name] => United States Government Small Business Administration
+    [website] => http://www.sbaonline.sba.gov
+    [srcurl] => http://www.yellowpages.com/cleveland-oh/mip/united-states-government-small-business-administration-9730255?lid=9730255
+    [crc32] => 1511414223
+    [md5] => 35083f424b466080edd2a138e512fb37
+    [address] => 1350 Euclid Ave # 211
+    [city] => Cleveland
+    [state] => OH
+    [zip] => 44115
+    [country] => 
+    [phone] => (216) 522-4180
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => http://www.sbaonline.sba.gov,http://www.sbaonline.sba.gov,http://sba.gov
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => Government Offices, Business & Economic Development, Government-United States
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+
+Array
+(
+    [__init__] => BusinessDetail_Parser
+    [__run__] => BusinessDetail_Parser
+    [Parsing Rules] => FOUND
+    [Deal Save/Updated] => YES
+    [time_before_fetch] => 0.0555219650269
+    [fetch_time] => 0.771194934845
+    [parsing_time] => 0.28373503685
+    [release_time] => 0.0559508800507
+)
+
+Time Taken by URL: 1.17478108406
+Thread: 95111 Entiry: BusinessDetail Target: 1
+[705320] http://www.yellowpages.com/burlington-ma/mip/centres-at-burlington-the-3435414?lid=189611719 d1b1225d9d7b72b275d66afc3458e082
+No pre scraping process defined on this partner.
+Empty node for name
+Empty node for address
+Empty node for city
+Empty node for state
+Empty node for zip
+Empty node for phone
+Empty node for ypcategories
+Final Output: Array
+(
+    [id] => 0
+    [name] => 
+    [website] => 
+    [srcurl] => http://www.yellowpages.com/burlington-ma/mip/centres-at-burlington-the-3435414?lid=189611719
+    [crc32] => 3933659693
+    [md5] => d1b1225d9d7b72b275d66afc3458e082
+    [address] => 
+    [city] => 
+    [state] => 
+    [zip] => 
+    [country] => 
+    [phone] => 
+    [phones_other] => 
+    [email] => 
+    [emails_other] => 
+    [website_other] => 
+    [directscrapemails] => 
+    [ownership] => 
+    [employees] => 
+    [revenue] => 
+    [ypcategories] => 
+    [industries] => 
+    [targets_id] => 1
+    [crawled_on] => 0
+    [verified_on] => 0
+    [isvalid] => 1
+    [status] => 1
+)
+

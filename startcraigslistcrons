@@ -1,0 +1,3 @@
+#!/bin/bash
+
+crontab < /root/alphawolf/craiglist_cron

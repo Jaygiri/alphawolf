@@ -1,0 +1,13 @@
+14,29,44,59 * * * *   wget --no-cache -q "http://x.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=99101&target=1&flipflop=1" -O-
+14,29,44,59 * * * *    wget --no-cache -q "http://64.31.25.230/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=98101&target=1&flipflop=1" -O-
+12,27,42,57 * * * *    wget --no-cache -q "http://209.188.4.12/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=97101&target=1&flipflop=1" -O-
+10,25,40,55 * * * * wget --no-cache -q "http://pst.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=96101&target=1&flipflop=1" -O-
+ 1,16,31,46 * * * * wget --no-cache -q "http://cst.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=95101&target=1&flipflop=1" -O-
+12,27,42,57 * * * *    wget --no-cache -q "http://64.72.124.25/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=94101&target=1&flipflop=1" -O-
+11,26,41,56 * * * *  wget --no-cache -q "http://63.141.230.211/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=93101&target=1&flipflop=1" -O-
+ 5,20,35,50 * * * *   wget --no-cache -q "http://74.63.214.201/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=92101&target=1&flipflop=1" -O-
+ 9,24,39,54 * * * *  wget --no-cache -q "http://76.164.225.235/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=91101&target=1&flipflop=1" -O-
+12,27,42,57 * * * *     wget --no-cache -q "http://50.56.88.42/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=90101&target=1&flipflop=1" -O-
+ 0,15,30,45 * * * *    wget --no-cache -q "http://81.17.16.225/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=89101&target=1&flipflop=1" -O-
+10,25,40,55 * * * *    wget --no-cache -q "http://184.154.8.83/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=88101&target=1&flipflop=1" -O-
+ 6,21,36,51 * * * *   wget --no-cache -q "http://99.192.245.60/wolfbotx/www/crons/scrap.php?entity=DirectoryList&getall=1&tid=87101&target=1&flipflop=1" -O-

@@ -1,0 +1,556 @@
+******** DEV/QA ENV *************
+
+Thread: 95101 Entiry: DirectoryList Target: 1
+[798871] http://www.yellowpages.com/san-francisco-ca/finance?g=San+Francisco%2C+CA&page=2&q=Finance d417a7d5733b6081ae38d225410554f8
+No pre scraping process defined on this partner.
+Parsed Data: Array
+(
+    [NextPage] => Next
+    [url] => Array
+        (
+            [0] => http://www.yellowpages.com/san-francisco-ca/mip/houlihan-lokey-9713823?lid=9713823
+            [1] => http://www.yellowpages.com/san-francisco-ca/mip/pacific-gateway-investment-463182045?lid=463182045
+            [2] => http://www.yellowpages.com/san-francisco-ca/mip/california-housing-partnership-corp-7262685?lid=7262685
+            [3] => http://www.yellowpages.com/san-francisco-ca/mip/duff-phelps-14703404?lid=14703404
+            [4] => http://www.yellowpages.com/san-francisco-ca/mip/ray-pacific-asset-mgmt-inc-463189014?lid=463189014
+            [5] => http://www.yellowpages.com/san-francisco-ca/mip/encore-consumer-capital-20338665?lid=20338665
+            [6] => http://www.yellowpages.com/san-francisco-ca/mip/fulcrum-legal-graphics-inc-8154550?lid=8154550
+            [7] => http://www.yellowpages.com/san-francisco-ca/mip/bdo-evaultions-svc-463101127?lid=463101127
+            [8] => http://www.yellowpages.com/san-francisco-ca/mip/zelaya-financial-services-15307817?lid=15307817
+            [9] => http://www.yellowpages.com/san-francisco-ca/mip/need-financial-services-453569038?lid=453569038
+            [10] => http://www.yellowpages.com/san-francisco-ca/mip/levinson-alan-8908237?lid=8908237
+            [11] => http://www.yellowpages.com/san-francisco-ca/mip/allen-livenson-financial-31036660?lid=31036660
+            [12] => http://www.yellowpages.com/san-francisco-ca/mip/stifel-financial-corp-7123665?lid=7123665
+            [13] => http://www.yellowpages.com/san-francisco-ca/mip/urban-analytics-7676702?lid=7676702
+            [14] => http://www.yellowpages.com/san-francisco-ca/mip/analysis-group-inc-451646380?lid=451646380
+            [15] => http://www.yellowpages.com/san-francisco-ca/mip/sentinel-peak-capital-450942330?lid=450942330
+            [16] => http://www.yellowpages.com/san-francisco-ca/mip/russian-hill-investors-3890693?lid=3890693
+            [17] => http://www.yellowpages.com/san-francisco-ca/mip/corp-care-financial-sourcing-463194192?lid=463194192
+            [18] => http://www.yellowpages.com/san-francisco-ca/mip/home-account-inc-22152285?lid=22152285
+            [19] => http://www.yellowpages.com/san-francisco-ca/mip/americas-finance-group-463145992?lid=463145992
+            [20] => http://www.yellowpages.com/san-francisco-ca/mip/mar-david-associates-financial-10885343?lid=10885343
+            [21] => http://www.yellowpages.com/san-francisco-ca/mip/second-derivative-research-22720182?lid=22720182
+            [22] => http://www.yellowpages.com/san-francisco-ca/mip/f-l-advisors-12553345?lid=12553345
+            [23] => http://www.yellowpages.com/san-francisco-ca/mip/euphrat-william-municiple-finance-13259974?lid=13259974
+            [24] => http://www.yellowpages.com/san-francisco-ca/mip/fstr-inc-2635973?lid=2635973
+            [25] => http://www.yellowpages.com/san-francisco-ca/mip/macquarie-capital-463204226?lid=463204226
+            [26] => http://www.yellowpages.com/san-francisco-ca/mip/latterel-venture-partners-465011912?lid=465011912
+            [27] => http://www.yellowpages.com/san-francisco-ca/mip/davis-capital-463187359?lid=463187359
+            [28] => http://www.yellowpages.com/san-francisco-ca/mip/olympus-capital-us-management-778753?lid=778753
+            [29] => http://www.yellowpages.com/san-francisco-ca/mip/diversified-credit-investment-465976714?lid=465976714
+        )
+
+)
+
+Array
+(
+    [__init__] => DirectoryList_Parser
+    [__run__] => DirectoryList_Parser
+    [Parsing Rules] => FOUND
+    [time_before_fetch] => 0.120533943176
+    [fetch_time] => 1.59965586662
+    [parsing_time] => 3.54403710365
+    [release_time] => 0.110672950745
+)
+
+Time Taken by URL: 5.43477606773
+Total Pages Scraped: 1
+<h4>DB Queries</h4><pre>Total Time by SQL queries: 3.13693237305
+Array
+(
+    [0] => Array
+        (
+            [query] => SELECT * FROM `robot_urls` WHERE `status`='1' AND `thread_id`='95101' AND `entity`='DirectoryList' AND `targets_id`='1'   LIMIT 10
+            [time] => 0.0565268993378
+            [error] => 
+            [errno] => 0
+        )
+
+    [1] => Array
+        (
+            [query] => SELECT * FROM `robot_targets` WHERE `id`='1'
+            [time] => 0.057718038559
+            [error] => 
+            [errno] => 0
+        )
+
+    [2] => Array
+        (
+            [query] => SELECT * FROM `robot_parsingrules` WHERE entity='DirectoryList' AND targets_id='1' AND status=1 ORDER BY `order` ASC 
+            [time] => 0.0570781230927
+            [error] => 
+            [errno] => 0
+        )
+
+    [3] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/houlihan-lokey-9713823?lid=9713823', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0600419044495
+            [error] => 
+            [errno] => 0
+            [insert] => 817206
+        )
+
+    [4] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/pacific-gateway-investment-463182045?lid=463182045', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0771150588989
+            [error] => 
+            [errno] => 0
+            [insert] => 817209
+        )
+
+    [5] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/california-housing-partnership-corp-7262685?lid=7262685', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0843410491943
+            [error] => 
+            [errno] => 0
+            [insert] => 817212
+        )
+
+    [6] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/duff-phelps-14703404?lid=14703404', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0649149417877
+            [error] => 
+            [errno] => 0
+            [insert] => 817215
+        )
+
+    [7] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/ray-pacific-asset-mgmt-inc-463189014?lid=463189014', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0638821125031
+            [error] => 
+            [errno] => 0
+            [insert] => 817218
+        )
+
+    [8] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/encore-consumer-capital-20338665?lid=20338665', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0641729831696
+            [error] => 
+            [errno] => 0
+            [insert] => 817221
+        )
+
+    [9] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/fulcrum-legal-graphics-inc-8154550?lid=8154550', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0595951080322
+            [error] => Duplicate entry '1-http://www.yellowpages.com/san-francisco-ca/mip/fulcrum-legal-' for key 2
+            [errno] => 1062
+            [insert] => 817221
+        )
+
+    [10] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/bdo-evaultions-svc-463101127?lid=463101127', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0896279811859
+            [error] => 
+            [errno] => 0
+            [insert] => 817227
+        )
+
+    [11] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/zelaya-financial-services-15307817?lid=15307817', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0918350219727
+            [error] => 
+            [errno] => 0
+            [insert] => 817230
+        )
+
+    [12] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/need-financial-services-453569038?lid=453569038', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0553569793701
+            [error] => 
+            [errno] => 0
+            [insert] => 817232
+        )
+
+    [13] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/levinson-alan-8908237?lid=8908237', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0634610652924
+            [error] => 
+            [errno] => 0
+            [insert] => 817235
+        )
+
+    [14] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/allen-livenson-financial-31036660?lid=31036660', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.060359954834
+            [error] => 
+            [errno] => 0
+            [insert] => 817238
+        )
+
+    [15] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/stifel-financial-corp-7123665?lid=7123665', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0602769851685
+            [error] => 
+            [errno] => 0
+            [insert] => 817241
+        )
+
+    [16] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/urban-analytics-7676702?lid=7676702', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0572609901428
+            [error] => 
+            [errno] => 0
+            [insert] => 817243
+        )
+
+    [17] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/analysis-group-inc-451646380?lid=451646380', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0575911998749
+            [error] => 
+            [errno] => 0
+            [insert] => 817245
+        )
+
+    [18] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/sentinel-peak-capital-450942330?lid=450942330', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0591628551483
+            [error] => 
+            [errno] => 0
+            [insert] => 817247
+        )
+
+    [19] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/russian-hill-investors-3890693?lid=3890693', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0605421066284
+            [error] => 
+            [errno] => 0
+            [insert] => 817249
+        )
+
+    [20] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/corp-care-financial-sourcing-463194192?lid=463194192', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0564320087433
+            [error] => 
+            [errno] => 0
+            [insert] => 817251
+        )
+
+    [21] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/home-account-inc-22152285?lid=22152285', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0559871196747
+            [error] => 
+            [errno] => 0
+            [insert] => 817252
+        )
+
+    [22] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/americas-finance-group-463145992?lid=463145992', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0554361343384
+            [error] => 
+            [errno] => 0
+            [insert] => 817254
+        )
+
+    [23] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/mar-david-associates-financial-10885343?lid=10885343', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.058895111084
+            [error] => 
+            [errno] => 0
+            [insert] => 817255
+        )
+
+    [24] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/second-derivative-research-22720182?lid=22720182', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0554070472717
+            [error] => 
+            [errno] => 0
+            [insert] => 817257
+        )
+
+    [25] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/f-l-advisors-12553345?lid=12553345', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.128293991089
+            [error] => 
+            [errno] => 0
+            [insert] => 817260
+        )
+
+    [26] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/euphrat-william-municiple-finance-13259974?lid=13259974', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0555391311646
+            [error] => 
+            [errno] => 0
+            [insert] => 817262
+        )
+
+    [27] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/fstr-inc-2635973?lid=2635973', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0559210777283
+            [error] => 
+            [errno] => 0
+            [insert] => 817264
+        )
+
+    [28] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/macquarie-capital-463204226?lid=463204226', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0596971511841
+            [error] => 
+            [errno] => 0
+            [insert] => 817266
+        )
+
+    [29] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/latterel-venture-partners-465011912?lid=465011912', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0563881397247
+            [error] => 
+            [errno] => 0
+            [insert] => 817268
+        )
+
+    [30] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/davis-capital-463187359?lid=463187359', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0694301128387
+            [error] => 
+            [errno] => 0
+            [insert] => 817270
+        )
+
+    [31] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/olympus-capital-us-management-778753?lid=778753', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0553810596466
+            [error] => 
+            [errno] => 0
+            [insert] => 817273
+        )
+
+    [32] => Array
+        (
+            [query] => INSERT INTO `robot_urls` (`targets_id`, `url`, `entity`, `entity_id`, `thread_id`, `freq`, `last`, `status`, `type`, `crondata`) VALUES ('1', 'http://www.yellowpages.com/san-francisco-ca/mip/diversified-credit-investment-465976714?lid=465976714', 'BusinessDetail', '0', '', '0', '0000-00-00 00:00:00', '1', '', '')
+            [time] => 0.0554540157318
+            [error] => 
+            [errno] => 0
+            [insert] => 817275
+        )
+
+    [33] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `type`='1' WHERE `targets_id`='1' AND `url`='http://www.yellowpages.com/san-francisco-ca/mip/houlihan-lokey-9713823?lid=9713823' AND entity='BusinessDetail'
+            [time] => 0.0555150508881
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [34] => Array
+        (
+            [query] => INSERT INTO websites SET website = 'http://www.hlhz.com'
+            [time] => 0.0586180686951
+            [error] => Duplicate entry 'http://www.hlhz.com' for key 2
+            [errno] => 1062
+            [insert] => 0
+        )
+
+    [35] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `type`='1' WHERE `targets_id`='1' AND `url`='http://www.yellowpages.com/san-francisco-ca/mip/pacific-gateway-investment-463182045?lid=463182045' AND entity='BusinessDetail'
+            [time] => 0.0558180809021
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [36] => Array
+        (
+            [query] => INSERT INTO websites SET website = 'http://pacificgatewayinvestment.com'
+            [time] => 0.0550310611725
+            [error] => 
+            [errno] => 0
+            [insert] => 208983
+        )
+
+    [37] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `type`='1' WHERE `targets_id`='1' AND `url`='http://www.yellowpages.com/san-francisco-ca/mip/california-housing-partnership-corp-7262685?lid=7262685' AND entity='BusinessDetail'
+            [time] => 0.0549690723419
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [38] => Array
+        (
+            [query] => INSERT INTO websites SET website = 'http://chpc.net'
+            [time] => 0.0551619529724
+            [error] => 
+            [errno] => 0
+            [insert] => 208985
+        )
+
+    [39] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `type`='1' WHERE `targets_id`='1' AND `url`='http://www.yellowpages.com/san-francisco-ca/mip/duff-phelps-14703404?lid=14703404' AND entity='BusinessDetail'
+            [time] => 0.0556268692017
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [40] => Array
+        (
+            [query] => INSERT INTO websites SET website = 'http://duffandphelps.com'
+            [time] => 0.0552020072937
+            [error] => Duplicate entry 'http://duffandphelps.com' for key 2
+            [errno] => 1062
+            [insert] => 0
+        )
+
+    [41] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `type`='1' WHERE `targets_id`='1' AND `url`='http://www.yellowpages.com/san-francisco-ca/mip/ray-pacific-asset-mgmt-inc-463189014?lid=463189014' AND entity='BusinessDetail'
+            [time] => 0.0558700561523
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [42] => Array
+        (
+            [query] => INSERT INTO websites SET website = 'http://raypacific.com'
+            [time] => 0.0571460723877
+            [error] => 
+            [errno] => 0
+            [insert] => 208987
+        )
+
+    [43] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `type`='1' WHERE `targets_id`='1' AND `url`='http://www.yellowpages.com/san-francisco-ca/mip/encore-consumer-capital-20338665?lid=20338665' AND entity='BusinessDetail'
+            [time] => 0.0567579269409
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [44] => Array
+        (
+            [query] => INSERT INTO websites SET website = 'http://encoreconsumercapital.com'
+            [time] => 0.0553188323975
+            [error] => 
+            [errno] => 0
+            [insert] => 208988
+        )
+
+    [45] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `type`='1' WHERE `targets_id`='1' AND `url`='http://www.yellowpages.com/san-francisco-ca/mip/fulcrum-legal-graphics-inc-8154550?lid=8154550' AND entity='BusinessDetail'
+            [time] => 0.0625720024109
+            [error] => 
+            [errno] => 0
+            [affected] => 0
+        )
+
+    [46] => Array
+        (
+            [query] => INSERT INTO websites SET website = 'http://mcgettigan-wick.com'
+            [time] => 0.0627589225769
+            [error] => 
+            [errno] => 0
+            [insert] => 208989
+        )
+
+    [47] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `type`='1' WHERE `targets_id`='1' AND `url`='http://www.yellowpages.com/san-francisco-ca/mip/bdo-evaultions-svc-463101127?lid=463101127' AND entity='BusinessDetail'
+            [time] => 0.0562558174133
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [48] => Array
+        (
+            [query] => INSERT INTO websites SET website = 'http://bdo.com'
+            [time] => 0.0549359321594
+            [error] => Duplicate entry 'http://bdo.com' for key 2
+            [errno] => 1062
+            [insert] => 0
+        )
+
+    [49] => Array
+        (
+            [query] => UPDATE `robot_urls` SET crondata='{\"urlparams\":{\"page\":3},\"donePage\":0}' WHERE `id`='798871'
+            [time] => 0.0552151203156
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+    [50] => Array
+        (
+            [query] => UPDATE `robot_urls` SET `thread_id`=NULL WHERE `id`='798871'
+            [time] => 0.0550360679626
+            [error] => 
+            [errno] => 0
+            [affected] => 1
+        )
+
+)
+</pre><style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        padding: 10px;
+    }
+    h4, h3 {
+        color: silver;
+        font-family: Calibri;
+        padding: 20px 0px 5px 0px;
+    }
+    h5 {
+        padding-top: 10px;
+    }
+    pre {
+        border: 1px dotted silver;
+    }
+    pre.showregex {
+        background-color: silver;
+    }
+    
+    #requiredKeys, #optionalKeys, #groupKeys {
+        float: left;
+    }
+    #requiredKeys, #optionalKeys, #groupKeys {
+        padding: 20px;
+        padding-left: 40px;
+        font-family: Calibri;
+        color: #99cc55;
+    }
+    ul strong {
+        color: #77aa33;
+    }
+    .parsingerror {
+        background-color: yellow;
+    }
+</style>

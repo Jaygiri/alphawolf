@@ -1,0 +1,13 @@
+13,28,43,58 * * * *   wget --no-cache -q "http://x.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=99111&target=1&flipflop=1" -O-
+# 8,23,38,53 * * * *    wget --no-cache -q "http://64.31.25.230/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=98111&target=1&flipflop=1" -O-
+### EX 10,25,40,55 * * * *    wget --no-cache -q "http://209.188.4.12/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=97111&target=1&flipflop=1" -O-
+#68.68.96.20 EXCLUDED
+# 1,16,31,46 * * * * wget --no-cache -q "http://cst.phpwolf.com/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=95111&target=1&flipflop=1" -O-
+ 3,18,33,48 * * * *    wget --no-cache -q "http://64.72.124.25/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=94111&target=1&flipflop=1" -O-
+# 2,17,32,47 * * * *  wget --no-cache -q "http://63.141.230.211/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=93111&target=1&flipflop=1" -O-
+# 1,16,31,46 * * * *   wget --no-cache -q "http://74.63.214.201/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=92111&target=1&flipflop=1" -O-
+### EX 10,25,40,55 * * * *  wget --no-cache -q "http://76.164.225.235/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=91111&target=1&flipflop=1" -O-
+# 1,16,31,46 * * * *     wget --no-cache -q "http://50.56.88.42/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=90111&target=1&flipflop=1" -O-
+ 0,15,30,45 * * * *    wget --no-cache -q "http://81.17.16.225/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=89111&target=1&flipflop=1" -O-
+11,26,41,56 * * * *    wget --no-cache -q "http://184.154.8.83/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=88111&target=1&flipflop=1" -O-
+ 8,23,38,53 * * * *   wget --no-cache -q "http://99.192.245.60/wolfbotx/www/crons/scrap.php?entity=BusinessDetail&getall=1&tid=87111&target=1&flipflop=1" -O-
